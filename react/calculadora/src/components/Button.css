@@ -11,6 +11,7 @@
     border-bottom: var(--border-button);
     outline: none;
     cursor: pointer;
+    font-weight: bold;
 }
 
 .button:active {
