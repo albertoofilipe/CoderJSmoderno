@@ -6,7 +6,9 @@
     --aside-width: 255px;
     --footer-height: 40px;
 
-    --shadow: 0px 23px 0 rgba(0, 0, 0, 0.1), 0 2px 49px 0px rgba(0, 0, 0, 0.06);
+    --shadow: 
+    0 2px 23px 0 rgba(0, 0, 0, 0.1), 
+    0 2px 49px 0 rgba(0, 0, 0, 0.06);
 }
 
 * {
