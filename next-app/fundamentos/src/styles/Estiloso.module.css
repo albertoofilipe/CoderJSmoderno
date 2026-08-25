@@ -1,5 +1,9 @@
 .roxo {
-    height: 100vh;
+    height: 100%;
     background-color: #5709a0;
     color:  white;
+}
+
+.roxo h1 {
+    margin: 0;
 }

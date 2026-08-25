@@ -1,0 +1,14 @@
+import { useRouter } from "next/router"
+
+import Layout from "@/src/components/Layout";
+
+export default function ClienteProCodigo() {
+    const router = useRouter()
+
+    return (
+        <Layout titulo="Navegação Dinâmica">
+            <div>Código: {router.query.codigo}</div>
+            <div>Filial: {router.query.filial}</div>
+        </Layout>
+    )
+}
