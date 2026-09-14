@@ -15,6 +15,7 @@ export default function Inicio() {
             <Navegador destino="/navegacao/" texto="Navegação #01" cor="green" />
             <Navegador destino="/cliente/sp-2/321" texto="Navegação #02" cor="orange" />
             <Navegador destino="/estado/" texto="Componente com estado" cor="pink" />
+            <Navegador destino="/integracao_1/" texto="Integração com API  #01" cor="#5c359b" />
         </div>
     )
 }
