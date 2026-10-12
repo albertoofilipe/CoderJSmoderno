@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="theme-color" content="#233957">
+  <title>Meu perfil | Minha Conta</title>
+
+  <link rel="stylesheet" href="./css/style.css">
+  <script type="module" src="./js/profile.js"></script>
+</head>
+
+<body class="profile-page">
+  <header class="profile-header">
+    <a href="./profile.html" class="brand">
+      <span class="brand-icon" aria-hidden="true">◆</span>
+      <span>Minha Conta</span>
+    </a>
+
+    <div class="header-user">
+      <span class="header-avatar" aria-hidden="true">●</span>
+      <span id="header-name">A carregar...</span>
+    </div>
+  </header>
+
+  <main class="profile-container">
+    <section class="profile-card">
+      <div class="profile-hero">
+        <div class="profile-avatar" aria-hidden="true">👤</div>
+
+        <div class="profile-intro">
+          <h1 id="profile-name">A carregar perfil...</h1>
+
+          <span class="account-badge">
+            <span aria-hidden="true">✓</span>
+            Conta autenticada
+          </span>
+
+          <p>Bem-vindo à tua área pessoal.</p>
+        </div>
+      </div>
+
+      <h2 class="section-title">Informações do utilizador</h2>
+
+      <div class="profile-details" id="profile-content">
+        <p id="message" role="status" aria-live="polite">
+          A carregar os teus dados...
+        </p>
+      </div>
+
+      <aside class="account-info">
+        <span class="info-icon" aria-hidden="true">i</span>
+
+        <div>
+          <h3>Sobre a tua conta</h3>
+          <p>
+            A tua sessão está ativa. Por segurança, termina a sessão
+            quando acabares de utilizar a aplicação.
+          </p>
+        </div>
+      </aside>
+
+      <button
+        class="logout-button"
+        id="logout-button"
+        type="button"
+      >
+        <span aria-hidden="true">↪</span>
+        Terminar sessão
+      </button>
+    </section>
+
+    <p class="profile-footer">
+      Minha Conta · Área pessoal
+    </p>
+  </main>
+</body>
+</html>
